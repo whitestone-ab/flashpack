@@ -1,0 +1,8 @@
+{
+  "timeout": 5.0,
+  "retries": 3,
+  "featureFlags": {
+    "newGreeting": true,
+    "auditLog": false
+  }
+}

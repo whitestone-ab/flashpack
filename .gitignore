@@ -1,0 +1,42 @@
+# Python caches / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.venv/
+venv/
+node_modules/
+
+# generated snapshots and temporary files
+.smoke/
+flashpack-snapshot.*
+examples/demo-snapshot.*
+*.snapshot.md
+*.snapshot.xml
+.flashpack-*.tmp
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
